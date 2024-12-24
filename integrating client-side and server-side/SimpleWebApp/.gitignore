@@ -1,0 +1,87 @@
+# Ignore Maven target directory
+/target/
+
+# Ignore temporary files created by the IDE
+*.class
+*.log
+*.swp
+*.iml
+*.iws
+*.idea/
+*.vscode/
+*.project
+*.classpath
+*.settings/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build output files
+*.war
+*.ear
+*.jar
+
+# Ignore IntelliJ IDEA specific files
+/.idea/
+/out/
+
+# Ignore Eclipse-specific files
+/.metadata/
+/bin/
+/.settings/
+/*.launch
+
+# Ignore NetBeans-specific files
+/nbproject/private/
+/build/
+/dist/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore user-specific Maven settings
+.mvn/
+
+# Ignore database configuration files
+*.db
+*.sql
+*.sqlite
+*.h2.db
+*.mv.db
+
+# Ignore sensitive configuration files
+*.key
+*.pem
+*.p12
+*.crt
+*.der
+*.jks
+*.keystore
+
+# Ignore any temporary or generated files
+*.bak
+*.~*
+*.swp
+*.swo
+*.orig
+*.rej
+*~
+*.backup
+
+# Ignore dependencies downloaded by Maven
+.m2/
+
+# Ignore files specific to Windows
+*.lnk
+*.ini
+
+# Ignore compiled servlets
+*.jsp.java
+
+# Ignore generated documentation
+/target/site/
+
+# Tomcat specific
+/tomcat.*
